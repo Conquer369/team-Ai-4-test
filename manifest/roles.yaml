@@ -1,0 +1,9 @@
+version: 1
+roles:
+  - id: dev
+    description: developer
+    resources:
+      knowledge: &a1
+        - dev
+      skills: *a1
+      agents: *a1
